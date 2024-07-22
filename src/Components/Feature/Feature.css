@@ -1,0 +1,33 @@
+.feature-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 569px;
+}
+
+.feature-section .content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.feature-section .content-container .hero-title{
+    font-size: 36px;
+}
+
+.feature-section .content-container .description{
+    font-size: 16px;
+    color: #6F7CB2;
+    line-height: 26px;
+    max-width: 450px;
+    
+}
+
+.feature-section br{
+    height: 10px;
+}
+
+.feature-section .content-container {
+    width:  auto;
+    justify-self: flex-end;
+}

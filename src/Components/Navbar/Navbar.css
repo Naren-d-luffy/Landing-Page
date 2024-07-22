@@ -1,0 +1,44 @@
+
+nav .container{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;    
+}
+
+.menu-items{
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+    
+}
+
+.menu-item a:hover{
+    color: #505F98;
+}
+
+.menu-items ul{
+    width: 245px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    list-style: none;
+    color: #505F98;
+    font-size: 14px;
+}
+
+.logo{
+    font-size: 26px;
+    color: #505F98;
+    position: absolute  ;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.buy-button{
+    width: 160px;
+    height: 26px;
+    padding: 0;
+}

@@ -1,0 +1,60 @@
+.section-2{
+    padding: 50px 0;
+    text-align: center;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column  ;
+    flex-wrap: wrap;
+}
+
+.section-2 .content-container .hero-title{
+    max-width: 50vh;
+    font-size: 36px;
+    font-weight: meduim;
+    color: #111b47;
+    margin-bottom: 20px;
+    line-height: 48px;
+}
+
+.section-2 .call-to-action-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    flex-direction: row;
+}
+.section-2 .content-container .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 250px;
+    
+    height: 138px;
+}
+
+
+.section-2 .card .card-icon{
+    height: 36px;
+}
+.section-2 .card .card-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.section-2 .card .card-description{
+    font-size: 12px;
+    color: #505F98;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.section-2 img{
+   width: 545px;
+
+    
+    object-fit: cover;
+}
+
