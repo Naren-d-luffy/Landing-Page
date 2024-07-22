@@ -1,4 +1,3 @@
-import React from "react";
 import "./FeaturesSections.css";
 import Feature from "../Feature/Feature";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import "./Section2.css";
 
 export const Section2 = () => {
