@@ -70,3 +70,29 @@
 .cta-section .btn:hover{
     background-color: #0056b3;
 }
+
+@media screen and (max-width: 768px){
+    .cta-section{
+        padding: 50px 0;
+    }
+    .cta-section .cta-section__title{
+        font-size: 30px;
+    }
+    .cta-section .cta-section__description{
+        font-size: 14px;
+    }
+    .cta-section .cta-section__price{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .cta-section .cta-section__priceTag{
+        font-size: 14px;
+    }
+    .cta-section .cta-section__purchaseTagline{
+        font-size: 12px;
+    }
+    .cta-section .button{
+        width: 150px;
+    }
+}
+

@@ -5,7 +5,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
+body{
+    overflow-x: hidden;
+}
 
 .flex-center{
     display: flex;
@@ -64,4 +66,22 @@
     cursor: pointer;
     transition: 0.3s all ease;
     padding: 10px 20px;
+}
+
+@media screen and (max-width: 768px){
+    .content-container{
+        width: 100%;
+    }
+    section{
+        height: auto    ;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .content-container{
+        width: 100%;
+    }
+
+   
+    
 }

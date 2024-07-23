@@ -1,5 +1,4 @@
-
-nav .container{
+/* nav .container{
     background-color: transparent;
     display: flex;
     justify-content: space-between;
@@ -35,6 +34,7 @@ nav .container{
     left: 50%;
     transform: translateX(-50%);
 
+
 }
 
 .buy-button{
@@ -42,3 +42,195 @@ nav .container{
     height: 26px;
     padding: 0;
 }
+
+@media screen and (max-width: 768px){
+    .menu-items{
+        display: none;
+    }
+    .logo{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .buy-button{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+    .menu-items{
+        display: none;
+    }
+    .logo{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .buy-button{
+        display: none;
+    }
+    
+}
+ */
+
+nav .container {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;    
+    position: relative; /* Added for positioning */
+}
+
+.menu-items {
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+}
+
+.menu-items ul {
+    width: 245px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    list-style: none;
+    color: #505F98;
+    font-size: 14px;
+}
+
+.logo {
+    font-size: 26px;
+    color: #505F98;
+}
+
+.buy-button {
+    width: 160px;
+    height: 26px;
+    padding: 0;
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 25px;
+    background-color: #505F98;
+    margin: 3px 0;
+}
+
+.menu-container{
+    display: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .menu-items {
+        display: none; /* Hide menu items by default */
+        flex-direction: column; /* Stack items vertically */
+        position: absolute; /* Positioning for dropdown */
+        top: 60px; /* Below the navbar */
+        left: 0;
+        width: 100%; /* Full width */
+        z-index: 1; /* Ensure it appears above other content */
+    }
+    .menu-items ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 20px;
+        width: 100px;
+        border: 1px solid;
+        align-self: flex-end;
+        background-color: azure;
+        padding: 10px;
+        margin-right: 0;
+    }
+
+    .menu-items ul li {
+        text-align: left;
+    }
+
+
+    .menu-items.open {
+        display: flex; /* Show menu when open */
+    }
+
+    .buy-button {
+        display: none; /* Hide button on mobile */
+    }
+    .menu-container{
+        display: inline;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .menu-items {
+        /* Additional styles can be added here if needed */
+    }
+
+
+}
+
+/* Hamburger */
+.menu-container {
+    position: relative;
+    padding: 0.5rem;
+  }
+  
+  .menu-toggle {
+    position: absolute;
+    right: 0.5rem;
+    top: 49%;
+    transform: translate(0, -50%);
+    height: 26px;
+    width: 29px;
+  }
+  
+  .menu-toggle:hover {
+    color: #000; /* Hover effect for .menu-toggle */
+  }
+  
+  .menu-toggle-bar {
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    right: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: black;
+    transition: all 0.3s ease;
+  }
+  
+  .menu-toggle-bar.menu-toggle-bar--top {
+    transform: translate(0, -8px);
+  }
+  
+  .menu-toggle-bar.menu-toggle-bar--middle {
+    /* No additional styles needed */
+  }
+  
+  .menu-toggle-bar.menu-toggle-bar--bottom {
+    transform: translate(0, 8px);
+  }
+  
+  /* Styles when .nav-open is present */
+  .nav-open .menu-toggle-bar.menu-toggle-bar--top {
+    transform: translate(0, 0) rotate(45deg);
+  }
+  
+  .nav-open .menu-toggle-bar.menu-toggle-bar--middle {
+    opacity: 0;
+  }
+  
+  .nav-open .menu-toggle-bar.menu-toggle-bar--bottom {
+    transform: translate(0, 0) rotate(-45deg);
+  }

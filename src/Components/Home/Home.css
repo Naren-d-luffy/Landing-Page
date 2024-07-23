@@ -39,7 +39,7 @@
     top: -50px;
     right: -467px;
     z-index: -1;
-    height: 1161px;
+    /* height: 1161px; */
 }
 
 .call-to-action{
@@ -50,4 +50,33 @@
 
 .call-to-action .button:nth-child(2){
     margin-left: 20px;
+}
+
+
+@media screen and (max-width: 768px){
+    .content-container{
+        width: 100%;
+    }
+
+    .home-bg-image{
+        opacity: 0.3;
+    }
+}
+
+    
+@media screen and (max-width: 480px){
+    .home-bg-image{
+        display: none;
+    }
+    .home-section{
+        height: auto;
+    }
+    .home-section .content-container .hero-title{
+        font-size: 30px;
+    }
+    .home-section .content-container .description{
+        font-size: 14px;
+    }
+
+    
 }

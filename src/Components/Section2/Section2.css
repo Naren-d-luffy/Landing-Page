@@ -53,8 +53,40 @@
 
 .section-2 img{
    width: 545px;
+   align-self: flex-end;
 
     
     object-fit: cover;
 }
 
+@media screen and (max-width: 768px){
+    .section-2{
+        height: auto;
+    }
+    .section-2 .content-container .hero-title{
+        max-width: 100%;
+    }
+    .section-2 .call-to-action-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-2 .content-container .card{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .section-2 img{
+        display: none;
+        }
+
+    .section-2 .call-to-action-cards{
+            width: 100%;
+            margin-top: 20px;
+        }
+    
+}
+
+@media  screen and (max-width: 480px){
+ 
+
+    
+}

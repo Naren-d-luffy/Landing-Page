@@ -15,7 +15,9 @@ const Feature = ({ title, description, image, button }: Props) => {
 
   return (
     <div className="feature-section">
+      <div className="feature__image__container">
       <img src={image || default_image} alt="" />
+      </div>
 
       <div className="content-container">
         <h3 className="hero-title">{title || default_title}</h3>
