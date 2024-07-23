@@ -6,7 +6,7 @@ export const CtaSection = () => {
 
   return (
     <div className='cta-section'>
-<img src="src\assets\image.png" alt="" />
+<img src="assets\image.png" alt="" />
       <div className='cta-section__content'>
         <h2 className='cta-section__title'>A Price To Suit Everyone</h2>
         <p className='cta-section__description'>
