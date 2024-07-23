@@ -13,21 +13,21 @@ export const FeaturesSections = () => {
       title: "Light, Fast & Powerful",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
-      image: "src\\assets\\undraw_happy_news_hxmt.png",
+      image: "assets\\undraw_happy_news_hxmt.png",
       button: "",
     },
     {
       title: "Light, Fast & Powerful",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
-      image: "src\\assets\\undraw_social_influencer_sgsv.png",
+      image: "assets\\undraw_social_influencer_sgsv.png",
       button: ""
     },
     {
       title: "Light, Fast & Powerful",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
-      image: "src\\assets\\undraw_mention_6k5d.png",
+      image: "assets\\undraw_mention_6k5d.png",
     button: "Purchase Now"
     },
   ];

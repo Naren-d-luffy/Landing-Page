@@ -65,7 +65,7 @@ export const Section2 = () => {
         </div>
 
       </div>
-        <img src="src\assets\section2.png" alt="section-2-image" />
+        <img src="assets\section2.png" alt="section-2-image" />
     </div>
   );
 };
